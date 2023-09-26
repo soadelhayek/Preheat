@@ -8,7 +8,7 @@ import PackageDescription
 
 let package = Package(
     name: "Preheat",
-    platforms: [.iOS(.v9), .tvOS(.v9)],
+    platforms: [.iOS(.v12), .tvOS(.v12)],
     products: [.library(name: "Preheat", targets: ["Preheat"])],
     targets: [.target(name: "Preheat", path: "Sources")]
 )
